@@ -5340,6 +5340,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 55.88) (xy 73.66 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "364e9737-8f1b-497c-9736-2abdd685f5cc")
+	)
+	(wire
+		(pts
 			(xy 54.61 58.42) (xy 59.69 58.42)
 		)
 		(stroke
@@ -5420,6 +5430,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 21.59) (xy 77.47 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44878ba8-9621-4ea5-8ad9-928556456db4")
+	)
+	(wire
+		(pts
 			(xy 73.66 166.37) (xy 64.77 166.37)
 		)
 		(stroke
@@ -5447,16 +5467,6 @@
 			(type default)
 		)
 		(uuid "4cbb00ba-fe84-4edc-88ed-8e3aa70088ab")
-	)
-	(wire
-		(pts
-			(xy 87.63 22.86) (xy 87.63 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5666f8a9-d6fa-4365-8d04-20fe4367ebb8")
 	)
 	(wire
 		(pts
@@ -5660,16 +5670,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 20.32) (xy 77.47 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70341f54-39bf-48f9-962e-66e8537c01b4")
-	)
-	(wire
-		(pts
 			(xy 215.9 105.41) (xy 215.9 107.95)
 		)
 		(stroke
@@ -5751,7 +5751,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 50.8) (xy 76.2 50.8)
+			(xy 64.77 50.8) (xy 73.66 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6221,6 +6221,16 @@
 			(color 132 0 0 1)
 		)
 		(uuid "f4f87617-10ee-43ab-bdf9-73dd45959c98")
+	)
+	(wire
+		(pts
+			(xy 76.2 55.88) (xy 73.66 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5ab3fd5-adc9-41bc-ae3d-a4b28639733b")
 	)
 	(wire
 		(pts
@@ -7856,7 +7866,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
-		(at 81.28 53.34 0)
+		(at 82.55 21.59 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7865,7 +7875,7 @@
 		(dnp no)
 		(uuid "30b1e919-2a05-4ede-9581-b41ba2036397")
 		(property "Reference" "SW2"
-			(at 81.28 44.45 0)
+			(at 82.55 13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7873,7 +7883,7 @@
 			)
 		)
 		(property "Value" "SW_DPDT_x2"
-			(at 81.28 46.99 0)
+			(at 82.55 16.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7881,7 +7891,7 @@
 			)
 		)
 		(property "Footprint" "maxfootprints:DPDT-Slide_top"
-			(at 81.28 53.34 0)
+			(at 82.55 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7890,7 +7900,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 53.34 0)
+			(at 82.55 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7899,7 +7909,7 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 81.28 53.34 0)
+			(at 82.55 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7908,7 +7918,7 @@
 			)
 		)
 		(property "LCSC" "C2837066"
-			(at 81.28 53.34 0)
+			(at 82.55 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8140,7 +8150,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14445"
+		(property "LCSC" "C52923"
 			(at 171.45 39.37 0)
 			(effects
 				(font
@@ -8166,7 +8176,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
-		(at 82.55 22.86 0)
+		(at 81.28 53.34 0)
 		(mirror y)
 		(unit 2)
 		(exclude_from_sim no)
@@ -8175,7 +8185,7 @@
 		(dnp no)
 		(uuid "39d282f0-18ab-46dc-9427-946b60607e3f")
 		(property "Reference" "SW2"
-			(at 82.55 13.97 0)
+			(at 81.28 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8183,7 +8193,7 @@
 			)
 		)
 		(property "Value" "SW_DPDT_x2"
-			(at 82.55 16.51 0)
+			(at 81.28 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8191,7 +8201,7 @@
 			)
 		)
 		(property "Footprint" "maxfootprints:DPDT-Slide_top"
-			(at 82.55 22.86 0)
+			(at 81.28 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8200,7 +8210,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 22.86 0)
+			(at 81.28 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8209,7 +8219,7 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 82.55 22.86 0)
+			(at 81.28 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8218,7 +8228,7 @@
 			)
 		)
 		(property "LCSC" "C2837066"
-			(at 82.55 22.86 0)
+			(at 81.28 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9023,7 +9033,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14445"
+		(property "LCSC" "C52923"
 			(at 179.07 39.37 0)
 			(effects
 				(font
@@ -10112,7 +10122,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14445"
+		(property "LCSC" "C52923"
 			(at 163.83 39.37 0)
 			(effects
 				(font
@@ -10723,7 +10733,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14445"
+		(property "LCSC" "C52923"
 			(at 109.22 76.2 0)
 			(effects
 				(font
@@ -12537,7 +12547,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14445"
+		(property "LCSC" "C52923"
 			(at 127 76.2 0)
 			(effects
 				(font
